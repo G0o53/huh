@@ -1,6 +1,6 @@
 #!/bin/sh
-echo "▙ Installing huh using sudo (this may ask you for your password)"
+echo "▙ Installing huh using sudo (this may ask you for your password)\n"
 sudo curl -sSf "https://raw.githubusercontent.com/G0o53/huh/refs/heads/master/huh" -o /usr/local/bin/huh
 sudo chmod +x /usr/local/bin/huh
 echo "\n▙ huh has been successfully installed!\n" 
-echo "▙ If you can't run huh, make sure it's in your path!"
+echo "▙ If you can't run huh, make sure it's in your PATH!"
